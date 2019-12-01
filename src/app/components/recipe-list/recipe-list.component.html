@@ -1,0 +1,5 @@
+<h2>Welcome To my Recipe Application</h2>
+
+<div *ngFor='let recipe of recipes' class="panel panel-default" style="max-width: 500px;">
+    <app-recipe-summary [recipe]="recipe"></app-recipe-summary>
+</div>
